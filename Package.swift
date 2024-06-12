@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleCast",
-            url: "https://www.dropbox.com/scl/fi/mbtyxspso6y0wd1lng3vv/GoogleCast.xcframework.zip?rlkey=g99rn235o2kw6i2ww1tbsvpm8&st=mh23v4lz&dl=1",
-            checksum: "7ae1d9010015224ad8db99a0052ae5c001e4ddbd93d8cf58e1612454e46bfc2e")
+            url: "https://www.dropbox.com/scl/fi/nb0onc12fvvputuohh6im/GoogleCastSDK-ios-4.8.1_static.zip?rlkey=4y6z3qghy90rmb3onom07ivlt&st=6uq5y2ks&dl=1",
+            checksum: "5515185c06903899c7831ca1c3fc48cfc8ff5fbb00fc31b38105899e11be6e09")
     ]
 )
