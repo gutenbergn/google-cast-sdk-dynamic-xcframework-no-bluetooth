@@ -2,19 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "GoogleCast",
-    products: [
-        .library(
-            name: "GoogleCast",
-            targets: ["GoogleCast"])
-    ],
-    dependencies: [
-        // List any dependencies here.
-    ],
-    targets: [
-        .binaryTarget(
-            name: "GoogleCast",
-            url: "https://www.dropbox.com/scl/fi/nb0onc12fvvputuohh6im/GoogleCastSDK-ios-4.8.1_static.zip?rlkey=4y6z3qghy90rmb3onom07ivlt&st=6uq5y2ks&dl=1",
-            checksum: "5515185c06903899c7831ca1c3fc48cfc8ff5fbb00fc31b38105899e11be6e09")
-    ]
+  name: "GoogleCast",
+  platforms: [.iOS(.v15)],
+  products: [
+    .library(
+      name: "GoogleCast",
+      targets: ["GoogleCast"]
+    )
+  ],
+  targets: [
+    .binaryTarget(
+      name: "GoogleCast",
+      url:
+        "https://www.dropbox.com/scl/fi/1o35jpjfufzzlx1jdcceg/GoogleCast-4.7.1.xcframework.zip?rlkey=1sglvmzq54dxh5jgfan510qp4&st=3ymi8zkt&dl=1",
+      checksum: "71ab54f51e6cfa989be8835f95c47b7985fb2b3322480e02e6ae766f5a55ad5c"
+    )
+  ]
 )
